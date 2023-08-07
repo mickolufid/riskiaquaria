@@ -18,6 +18,9 @@
     <!-- Custom styles for this template-->
     <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
 
+    <!-- Logo bar -->
+    <link rel="icon" type="image/png" href="../../img/logo.png">
+
 </head>
 
 <body id="page-top">

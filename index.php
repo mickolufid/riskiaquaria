@@ -20,18 +20,42 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+    <!-- Logo bar -->
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .wrapper {
+            padding: 0 20px 0 20px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .row {
+            width: 900px;
+            height: 550px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
 </head>
 
-<body style="background-image: url(img/bg_login.png);">
+<body style="background-image: url(img/bg_login.png); background-size: cover;">
 
-    <div class="container">
-
-        <!-- Outer Row -->
-        <div class="row justify-content-center">
-
-            <div class="col-xl-10 col-lg-12 col-md-9">
-
-                <div class="card o-hidden border-0 shadow-lg my-5">
+    <div class="wrapper">
+        <div class="container main">
+            <!-- Outer Row -->
+            <div class="row justify-content-center">
+                <div class="card o-hidden border-0 shadow-lg">
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
@@ -39,8 +63,8 @@
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome !!</h1>
-                                        <p>Login to your account</p>
+                                        <h1 class="h4 text-gray-900" style="margin-top: 90px;">Welcome !!</h1>
+                                        <p style="margin-top: 18px;">Login to your account</p>
                                     </div>
                                     <form class="user">
                                         <div class="form-group">
@@ -69,6 +93,8 @@
             </div>
 
         </div>
+
+
 
     </div>
 
