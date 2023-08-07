@@ -95,19 +95,48 @@
                         <div class="col-3"></div>
                         <div class="col-6">
                             <div class="card p-4">
-                                <h3>Detail Pricelist</h3>
-                                <form>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Nama Ikan</label>
-                                        <input type="text" value="Nemo" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
+                                <h3 class="text-center">Detail Pricelist</h3>
+                                <hr>
+                                <form class="mt-3">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Code</label>
+                                                <input type="text" value="RA516M" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Category</label>
+                                                <input type="text" value="Anemones" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Harga</label>
-                                        <input type="text" value="200,000" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
+                                        <label for="exampleInputEmail1">Common Name</label>
+                                        <input type="text" value="Red Fire Anemon" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Size</label>
-                                        <input type="text" value="Small" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
+                                        <label for="exampleInputEmail1">Scientific Name</label>
+                                        <input type="text" value="Phyllodiscus semoni (Anemon)" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Indonesian Name</label>
+                                        <input type="text" value="Anemon Api" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Harga</label>
+                                                <input type="text" value="200,000" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Size</label>
+                                                <input type="text" value="Small" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div>
                                         <img src="../../img/product/ikan1.jpg" width="30%" alt="">
@@ -148,8 +177,8 @@
         <i class="fas fa-angle-up"></i>
     </a>
 
-<!-- Logout Modal-->
-<div class="modal fade" id="hapusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Logout Modal-->
+    <div class="modal fade" id="hapusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">

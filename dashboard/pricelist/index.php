@@ -68,7 +68,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Riski Aquaria</span>
-                                <img class="img-profile rounded-circle" src="../img/undraw_profile.svg">
+                                <img class="img-profile rounded-circle" src="../../img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -90,15 +90,14 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Pricelist</h1>
 
-                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">
+                    <a href="#" class="d-none d-sm-inline-block btn btn-md btn-success shadow-sm">
                         <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Data</a>
-
+                        </div>
                     <!-- Content Row -->
                     <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Pricelist</h6>
-                        </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4">
@@ -126,18 +125,20 @@
                                                 <thead>
                                                     <tr role="row">
                                                         <th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 10px;">No</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 259.328px;">Product Name</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Code</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Category</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 259.328px;">Common Name</th>
                                                         <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 111.578px;">Price</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Size</th>
                                                         <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 105.156px;">Action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr class="odd">
                                                         <td class="sorting_1">1</td>
-                                                        <td>Ikan Nemo</td>
+                                                        <td>RA516M</td>
+                                                        <td>Anemones</td>
+                                                        <td>Red Fire Anemon</td>
                                                         <td>Rp 200,000</td>
-                                                        <td>Small</td>
                                                         <td>
                                                             <a href="detailPricelist.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
@@ -145,9 +146,10 @@
                                                     </tr>
                                                     <tr class="odd">
                                                         <td class="sorting_1">2</td>
-                                                        <td>Ikan Nemo</td>
-                                                        <td>Rp 200,000</td>
-                                                        <td>Small</td>
+                                                        <td>RA520M</td>
+                                                        <td>Anemones</td>
+                                                        <td>Color Carpet Anemon (Blue)</td>
+                                                        <td>Rp 250,000</td>
                                                         <td>
                                                             <a href="detailPricelist.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
@@ -155,9 +157,10 @@
                                                     </tr>
                                                     <tr class="odd">
                                                         <td class="sorting_1">3</td>
-                                                        <td>Ikan Nemo</td>
-                                                        <td>Rp 200,000</td>
-                                                        <td>Small</td>
+                                                        <td>RA517M</td>
+                                                        <td>Anemones</td>
+                                                        <td>Color Carpet Anemon (Brown)</td>
+                                                        <td>Rp 250,000</td>
                                                         <td>
                                                             <a href="detailPricelist.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
@@ -179,8 +182,6 @@
                                                     <li class="paginate_button page-item "><a href="#" aria-controls="dataTable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
                                                     <li class="paginate_button page-item "><a href="#" aria-controls="dataTable" data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
                                                     <li class="paginate_button page-item "><a href="#" aria-controls="dataTable" data-dt-idx="4" tabindex="0" class="page-link">4</a></li>
-                                                    <li class="paginate_button page-item "><a href="#" aria-controls="dataTable" data-dt-idx="5" tabindex="0" class="page-link">5</a></li>
-                                                    <li class="paginate_button page-item "><a href="#" aria-controls="dataTable" data-dt-idx="6" tabindex="0" class="page-link">6</a></li>
                                                     <li class="paginate_button page-item next" id="dataTable_next"><a href="#" aria-controls="dataTable" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li>
                                                 </ul>
                                             </div>
