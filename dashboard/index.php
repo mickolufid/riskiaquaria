@@ -21,6 +21,22 @@
     <!-- Custom styles for this template-->
     <link href="../css/sb-admin-2.min.css" rel="stylesheet">
 
+    <style>
+
+        .navbar {
+            background-color: #22527D;
+        }
+        .navbar-brand span {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 6.6px;
+        }
+    </style>
+
 </head>
 
 <body id="page-top">
@@ -35,10 +51,10 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                <nav class="container-fluid navbar navbar-expand topbar mb-5 static-top shadow">
 
-                <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="" width="20%">Riski Aquaria</a>
-                   
+                    <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="" width="20%"><span>Riski Application</span></a>
+
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -48,9 +64,8 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
-                                <img class="img-profile rounded-circle"
-                                    src="../img/undraw_profile.svg">
+                                <span class="mr-2 d-none d-lg-inline text-white small">Admin</span>
+                                <img class="img-profile rounded-circle" src="../img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -84,8 +99,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <a href="pricelist/" class="text-decoration-none text-dark">
-                                            <img src="../img/pricelist.png" alt="" class="mx-auto d-block">
-                                            <h4 class="text-center">PRICELIST</h4>
+                                                <img src="../img/pricelist.png" alt="" class="mx-auto d-block">
+                                                <h4 class="text-center">PRICELIST</h4>
                                             </a>
                                         </div>
                                     </div>
@@ -99,8 +114,10 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <img src="../img/stock_product.png" alt="" class="mx-auto d-block">
-                                            <h4 class="text-center">STOCK PRODUCT</h4>
+                                            <a href="stock/" class="text-decoration-none text-dark">
+                                                <img src="../img/stock_product.png" alt="" class="mx-auto d-block">
+                                                <h4 class="text-center">STOCK PRODUCT</h4>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -177,7 +194,7 @@
                             </div>
                         </div>
 
-                        
+
                     </div>
 
                     <!-- Content Row -->

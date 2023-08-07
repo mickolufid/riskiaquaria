@@ -66,9 +66,9 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h4 mb-0 text-gray-800"><a href="../index.php">Dashboard</a> / Pricelist</h1>
+                        <h1 class="h4 mb-0 text-gray-800"><a href="../index.php">Dashboard</a> / Stock Barang</h1>
 
-                    <a href="tambahPricelist.php" class="d-none d-sm-inline-block btn btn-md btn-success shadow-sm">
+                    <a href="tambahStock.php" class="d-none d-sm-inline-block btn btn-md btn-success shadow-sm">
                         <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Data</a>
                         </div>
                     <!-- Content Row -->
@@ -115,7 +115,7 @@
                                                         <td>Red Fire Anemon</td>
                                                         <td>Rp 200,000</td>
                                                         <td>
-                                                            <a href="detailPricelist.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -126,7 +126,7 @@
                                                         <td>Color Carpet Anemon (Blue)</td>
                                                         <td>Rp 250,000</td>
                                                         <td>
-                                                            <a href="detailPricelist.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -137,7 +137,7 @@
                                                         <td>Color Carpet Anemon (Brown)</td>
                                                         <td>Rp 250,000</td>
                                                         <td>
-                                                            <a href="detailPricelist.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>

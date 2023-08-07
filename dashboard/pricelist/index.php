@@ -21,6 +21,22 @@
     <!-- Logo bar -->
     <link rel="icon" type="image/png" href="../../img/logo.png">
 
+    <style>
+        .navbar {
+            background-color: #22527D;
+        }
+        .navbar-brand span {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 6.6px;
+        }
+    </style>
+
+
 </head>
 
 <body id="page-top">
@@ -35,9 +51,9 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                <nav class="container-fluid navbar navbar-expand topbar mb-5 static-top shadow">
 
-                <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%">Riski Aquaria</a>
+                <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%"><span>Riski Application</span></a>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -45,7 +61,7 @@
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
+                                <span class="mr-2 d-none d-lg-inline text-white small">Admin</span>
                                 <img class="img-profile rounded-circle" src="../../img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
