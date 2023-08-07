@@ -95,7 +95,7 @@
                         <div class="col-3"></div>
                         <div class="col-6">
                             <div class="card p-4">
-                                <h3>Detail Pricelist</h3>
+                                <h3>Edit Detail Pricelist</h3>
                                 <form>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Nama Ikan</label>
