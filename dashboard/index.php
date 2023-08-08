@@ -45,6 +45,7 @@
         }
 
         .card:hover {
+            cursor: pointer;
             background-color: #97BDDE;
         }
     </style>
