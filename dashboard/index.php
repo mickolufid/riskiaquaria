@@ -161,8 +161,11 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <img src="../img/list_client.png" alt="" class="mx-auto d-block">
-                                            <h4 class="text-center">LIST CLIENT</h4>
+                                            <a href="client/" class="text-decoration-none text-dark">
+                                                <img src="../img/list_client.png" alt="" class="mx-auto d-block">
+                                                <h4 class="text-center">LIST CLIENT</h4>
+                                            </a>
+
                                         </div>
                                     </div>
                                 </div>
