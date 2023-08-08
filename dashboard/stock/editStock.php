@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Detail Pricelist | Riski Aquaria</title>
+    <title>Edit Stock Barang | Riski Aquaria</title>
 
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -95,55 +95,56 @@
                         <div class="col-3"></div>
                         <div class="col-6">
                             <div class="card p-4">
-                                <h3 class="text-center">Tambah Stock Barang</h3>
+                                <h3 class="text-center">Edit Detail Stock Barang</h3>
                                 <hr>
                                 <form class="mt-3">
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="form-group">
                                                 <label for="exampleInputEmail1">Buy Quantity</label>
-                                                <input type="text" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp">
+                                                <input type="number" value="20" class="form-control"
+                                                    id="exampleInputEmail1" aria-describedby="emailHelp">
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="form-group">
                                                 <label for="exampleInputEmail1">Sell Quantity</label>
-                                                <input type="text" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp">
+                                                <input type="number" value="30" class="form-control"
+                                                    id="exampleInputEmail1" aria-describedby="emailHelp">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Mortality</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
+                                        <input type="text" value="Red Fire Anemon" class="form-control"
+                                            id="exampleInputEmail1" aria-describedby="emailHelp">
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Damaged</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
+                                        <input type="text" value="Phyllodiscus semoni (Anemon)" class="form-control"
+                                            id="exampleInputEmail1" aria-describedby="emailHelp">
                                     </div>
+
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="form-group">
                                                 <label for="exampleInputEmail1">Recovery</label>
-                                                <input type="text" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp">
+                                                <input type="text" value="Anemon Api" class="form-control"
+                                                    id="exampleInputEmail1" aria-describedby="emailHelp">
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="form-group">
                                                 <label for="exampleInputEmail1">Date</label>
-                                                <input type="date" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp">
+                                                <input type="date" value="200,000" class="form-control"
+                                                    id="exampleInputEmail1" aria-describedby="emailHelp">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="text-right">
-                                        <a href="index.php" class="btn btn-primary">Simpan</a>
-                                        <a href="index.php" class="btn btn-danger">Batal</a>
+                                        <a href="#" class="btn btn-primary">Update Data</a>
+                                        <a href="detailStock.php" class="btn btn-danger">Batal</a>
                                     </div>
 
                                 </form>

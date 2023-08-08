@@ -23,6 +23,22 @@
     <!-- Logo bar -->
     <link rel="icon" type="image/png" href="../../img/logo.png">
 
+    <style>
+
+        .navbar {
+            background-color: #22527D;
+        }
+        .navbar-brand span {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 6.6px;
+        }
+    </style>
+
 </head>
 
 <body id="page-top">
@@ -37,9 +53,9 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                <nav class="container-fluid navbar navbar-expand topbar mb-5 static-top shadow">
 
-                    <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%">Riski Aquaria</a>
+                    <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%"><span>Riski Application</span></a>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -49,7 +65,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
+                                <span class="mr-2 d-none d-lg-inline text-white small">Admin</span>
                                 <img class="img-profile rounded-circle" src="../../img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
@@ -84,56 +100,47 @@
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="form-group">
-                                                <label for="exampleInputEmail1">Code</label>
+                                                <label for="exampleInputEmail1">Buy Quantity</label>
                                                 <input type="text" value="RA516M" class="form-control"
                                                     id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="form-group">
-                                                <label for="exampleInputEmail1">Category</label>
+                                                <label for="exampleInputEmail1">Sell Quantity</label>
                                                 <input type="text" value="Anemones" class="form-control"
                                                     id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Common Name</label>
+                                        <label for="exampleInputEmail1">Mortality</label>
                                         <input type="text" value="Red Fire Anemon" class="form-control"
                                             id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Scientific Name</label>
+                                        <label for="exampleInputEmail1">Damaged</label>
                                         <input type="text" value="Phyllodiscus semoni (Anemon)" class="form-control"
                                             id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Indonesian Name</label>
-                                        <input type="text" value="Anemon Api" class="form-control"
-                                            id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
-                                    </div>
+
                                     <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Harga</label>
-                                                <input type="text" value="200,000" class="form-control"
-                                                    id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
-                                            </div>
+                                        <div class="form-group col-6">
+                                            <label for="exampleInputEmail1">Recovery</label>
+                                            <input type="text" value="Anemon Api" class="form-control"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                         </div>
                                         <div class="col-6">
                                             <div class="form-group">
-                                                <label for="exampleInputEmail1">Size</label>
-                                                <input type="text" value="Small" class="form-control"
+                                                <label for="exampleInputEmail1">Date</label>
+                                                <input type="date" value="200,000" class="form-control"
                                                     id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <img src="../../img/product/ikan1.jpg" width="30%" alt="">
                                     </div>
                                     <br>
                                     <div class="text-right">
-                                        <a href="editPricelist.php" class="btn btn-warning">Edit</a>
+                                        <a href="editStock.php" class="btn btn-warning">Edit</a>
                                         <a href="#" data-toggle="modal" data-target="#hapusModal"
                                             class="btn btn-danger">Hapus</a>
 

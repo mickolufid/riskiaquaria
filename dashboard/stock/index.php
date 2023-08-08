@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pricelist | Riski Aquaria</title>
+    <title>Stock Barang | Riski Aquaria</title>
 
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -17,6 +17,25 @@
 
     <!-- Custom styles for this template-->
     <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!-- Logo bar -->
+    <link rel="icon" type="image/png" href="../../img/logo.png">
+
+    <style>
+
+        .navbar {
+            background-color: #22527D;
+        }
+        .navbar-brand span {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 6.6px;
+        }
+    </style>
 
 </head>
 
@@ -32,9 +51,9 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                <nav class="container-fluid navbar navbar-expand topbar mb-5 static-top shadow">
 
-                <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%">Riski Aquaria</a>
+                <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%"><span>Riski Application</span></a>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -42,7 +61,7 @@
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
+                                <span class="mr-2 d-none d-lg-inline text-white small">Admin</span>
                                 <img class="img-profile rounded-circle" src="../../img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
@@ -100,10 +119,9 @@
                                                 <thead>
                                                     <tr role="row">
                                                         <th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 10px;">No</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Code</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Category</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 259.328px;">Common Name</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 111.578px;">Price</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Buy Quantity</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Sell Quantity</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 111.578px;">Date</th>
                                                         <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 105.156px;">Action</th>
                                                     </tr>
                                                 </thead>
@@ -113,7 +131,6 @@
                                                         <td>RA516M</td>
                                                         <td>Anemones</td>
                                                         <td>Red Fire Anemon</td>
-                                                        <td>Rp 200,000</td>
                                                         <td>
                                                             <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
@@ -124,7 +141,6 @@
                                                         <td>RA520M</td>
                                                         <td>Anemones</td>
                                                         <td>Color Carpet Anemon (Blue)</td>
-                                                        <td>Rp 250,000</td>
                                                         <td>
                                                             <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
@@ -135,7 +151,6 @@
                                                         <td>RA517M</td>
                                                         <td>Anemones</td>
                                                         <td>Color Carpet Anemon (Brown)</td>
-                                                        <td>Rp 250,000</td>
                                                         <td>
                                                             <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
