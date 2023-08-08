@@ -26,10 +26,10 @@
     <link rel="icon" type="image/png" href="../img/logo.png">
 
     <style>
-
         .navbar {
             background-color: #22527D;
         }
+
         .navbar-brand span {
             color: #FFF;
             font-family: Poppins;
@@ -38,6 +38,14 @@
             font-weight: 700;
             line-height: normal;
             letter-spacing: 6.6px;
+        }
+
+        .card {
+            border-radius: 12px;
+        }
+
+        .card:hover {
+            background-color: #97BDDE;
         }
     </style>
 
@@ -57,7 +65,8 @@
                 <!-- Topbar -->
                 <nav class="container-fluid navbar navbar-expand topbar mb-5 static-top shadow">
 
-                    <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="" width="20%"><span>Riski Application</span></a>
+                    <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="" width="20%"><span>Riski
+                            Application</span></a>
 
 
                     <!-- Topbar Navbar -->
@@ -101,7 +110,7 @@
                             <div class="card shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
+                                        <div class="box col mr-2">
                                             <a href="pricelist/" class="text-decoration-none text-dark">
                                                 <img src="../img/pricelist.png" alt="" class="mx-auto d-block">
                                                 <h4 class="text-center">PRICELIST</h4>
@@ -134,8 +143,11 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <img src="../img/list_supplier.png" alt="" class="mx-auto d-block">
-                                            <h4 class="text-center">LIST SUPPLIER</h4>
+                                            <a href="supplier/" class="text-decoration-none text-dark">
+                                                <img src="../img/list_supplier.png" alt="" class="mx-auto d-block">
+                                                <h4 class="text-center">LIST SUPPLIER</h4>
+                                            </a>
+
                                         </div>
                                     </div>
                                 </div>
@@ -162,8 +174,11 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <img src="../img/invoice.png" alt="" class="mx-auto d-block">
-                                            <h4 class="text-center">INVOICE</h4>
+                                            <a href="invoice/" class="text-decoration-none text-dark">
+                                                <img src="../img/invoice.png" alt="" class="mx-auto d-block">
+                                                <h4 class="text-center">INVOICE</h4>
+                                            </a>
+
                                         </div>
                                     </div>
                                 </div>
@@ -176,8 +191,11 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <img src="../img/loan.png" alt="" class="mx-auto d-block">
-                                            <h4 class="text-center">LOAN</h4>
+                                            <a href="loan/" class="text-decoration-none text-dark">
+                                                <img src="../img/loan.png" alt="" class="mx-auto d-block">
+                                                <h4 class="text-center">LOAN</h4>
+                                            </a>
+
                                         </div>
                                     </div>
                                 </div>
@@ -190,8 +208,11 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <img src="../img/busines_report.png" alt="" class="mx-auto d-block">
-                                            <h4 class="text-center">BUSINESS REPORT</h4>
+                                            <a href="report/" class="text-decoration-none text-dark">
+                                                <img src="../img/busines_report.png" alt="" class="mx-auto d-block">
+                                                <h4 class="text-center">BUSINESS REPORT</h4>
+                                            </a>
+
                                         </div>
                                     </div>
                                 </div>
