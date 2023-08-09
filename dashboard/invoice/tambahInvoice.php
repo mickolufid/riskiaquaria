@@ -100,12 +100,12 @@
                                 <form class="mt-3">
                                     <div class="form-group">
                                                 <label for="exampleInputEmail1">Total Amount</label>
-                                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                                <input type="number" class="form-control" id="exampleInputEmail1"
                                                     aria-describedby="emailHelp">
                                             </div>
                                     <div class="form-group">
                                                 <label for="exampleInputEmail1">Amount Paid</label>
-                                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                                <input type="number" class="form-control" id="exampleInputEmail1"
                                                     aria-describedby="emailHelp">
                                             </div>
                                     <div class="form-group">
@@ -115,7 +115,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Due Date</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                        <input type="date" class="form-control" id="exampleInputEmail1"
                                             aria-describedby="emailHelp">
                                     </div>
 
