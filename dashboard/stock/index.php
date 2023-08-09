@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stock Barang | Riski Aquaria</title>
+    <title>Stock Product | Riski Aquaria</title>
 
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -85,7 +85,7 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h4 mb-0 text-gray-800"><a href="../index.php">Dashboard</a> / Stock Barang</h1>
+                        <h1 class="h4 mb-0 text-gray-800"><a href="../index.php">Dashboard</a> / Stock Product</h1>
 
                     <a href="tambahStock.php" class="d-none d-sm-inline-block btn btn-md btn-success shadow-sm">
                         <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Data</a>
