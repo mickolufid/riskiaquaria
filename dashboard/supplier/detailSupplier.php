@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Detail Stock Product | Riski Aquaria</title>
+    <title>Detail List Supplier | Riski Aquaria</title>
 
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -24,13 +24,13 @@
     <link rel="icon" type="image/png" href="../../img/logo.png">
 
     <style>
-
         .navbar {
             background-color: #22527D;
         }
+
         .navbar-brand span {
             color: #FFF;
-            font-family: Poppins;
+            font-family: 'Poppins';
             font-size: 22px;
             font-style: normal;
             font-weight: 700;
@@ -55,7 +55,8 @@
                 <!-- Topbar -->
                 <nav class="container-fluid navbar navbar-expand topbar mb-5 static-top shadow">
 
-                    <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%"><span>Riski Application</span></a>
+                    <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%"><span>Riski
+                            Application</span></a>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -94,53 +95,32 @@
                         <div class="col-3"></div>
                         <div class="col-6">
                             <div class="card p-4">
-                                <h3 class="text-center">Detail Stock Barang</h3>
+                                <h3 class="text-center">Detail Supplier</h3>
                                 <hr>
                                 <form class="mt-3">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Buy Quantity</label>
-                                                <input type="text" value="RA516M" class="form-control"
-                                                    id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Sell Quantity</label>
-                                                <input type="text" value="Anemones" class="form-control"
-                                                    id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
-                                            </div>
-                                        </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Client Name</label>
+                                        <input type="text" value="RA516M" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" readonly>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Mortality</label>
-                                        <input type="text" value="Red Fire Anemon" class="form-control"
+                                        <label for="exampleInputEmail1">Contact Person</label>
+                                        <input type="number" value="Anemones" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" readonly>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Phone</label>
+                                        <input type="number" value="Red Fire Anemon" class="form-control"
                                             id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Damaged</label>
-                                        <input type="text" value="Phyllodiscus semoni (Anemon)" class="form-control"
+                                        <label for="exampleInputEmail1">Email</label>
+                                        <input type="email" value="Phyllodiscus semoni (Anemon)" class="form-control"
                                             id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="form-group col-6">
-                                            <label for="exampleInputEmail1">Recovery</label>
-                                            <input type="text" value="Anemon Api" class="form-control"
-                                                id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Date</label>
-                                                <input type="date" value="200,000" class="form-control"
-                                                    id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
-                                            </div>
-                                        </div>
                                     </div>
                                     <br>
                                     <div class="text-right">
-                                        <a href="editStock.php" class="btn btn-warning">Edit</a>
+                                        <a href="editSupplier.php" class="btn btn-warning">Edit</a>
                                         <a href="#" data-toggle="modal" data-target="#hapusModal"
                                             class="btn btn-danger">Hapus</a>
 

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stock Barang | Riski Aquaria</title>
+    <title>List Supplier | Riski Aquaria</title>
 
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -85,9 +85,9 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h4 mb-0 text-gray-800"><a href="../index.php">Dashboard</a> / Stock Barang</h1>
+                        <h1 class="h4 mb-0 text-gray-800"><a href="../index.php">Dashboard</a> / Data Supplier</h1>
 
-                    <a href="tambahStock.php" class="d-none d-sm-inline-block btn btn-md btn-success shadow-sm">
+                    <a href="tambahSupplier.php" class="d-none d-sm-inline-block btn btn-md btn-success shadow-sm">
                         <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Data</a>
                         </div>
                     <!-- Content Row -->
@@ -119,9 +119,10 @@
                                                 <thead>
                                                     <tr role="row">
                                                         <th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 10px;">No</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Buy Quantity</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Sell Quantity</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 111.578px;">Date</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Client Name</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Contact Person</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 111.578px;">Phone</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 105.156px;">Email</th>
                                                         <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 105.156px;">Action</th>
                                                     </tr>
                                                 </thead>
@@ -131,8 +132,9 @@
                                                         <td>RA516M</td>
                                                         <td>Anemones</td>
                                                         <td>Red Fire Anemon</td>
+                                                        <td>manusia@gmail.com</td>
                                                         <td>
-                                                            <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="detailSupplier.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -141,8 +143,9 @@
                                                         <td>RA520M</td>
                                                         <td>Anemones</td>
                                                         <td>Color Carpet Anemon (Blue)</td>
+                                                        <td>manusia@gmail.com</td>
                                                         <td>
-                                                            <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="detailSupplier.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -151,8 +154,9 @@
                                                         <td>RA517M</td>
                                                         <td>Anemones</td>
                                                         <td>Color Carpet Anemon (Brown)</td>
+                                                        <td>manusia@gmail.com</td>
                                                         <td>
-                                                            <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="detailSupplier.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>
