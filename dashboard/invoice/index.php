@@ -163,7 +163,7 @@
                                                         <td>Red Fire Anemon</td>
                                                         <td>Red Fire Anemon</td>
                                                         <td>
-                                                            <a href="detailStock.php"
+                                                            <a href="detailInvoice.php"
                                                                 class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                                                                 Detail</a>
                                                             </a>
@@ -176,7 +176,7 @@
                                                         <td>Color Carpet Anemon (Blue)</td>
                                                         <td>Red Fire Anemon</td>
                                                         <td>
-                                                            <a href="detailStock.php"
+                                                            <a href="detailInvoice.php"
                                                                 class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                                                                 Detail</a>
                                                             </a>
@@ -189,7 +189,7 @@
                                                         <td>Color Carpet Anemon (Brown)</td>
                                                         <td>Red Fire Anemon</td>
                                                         <td>
-                                                            <a href="detailStock.php"
+                                                            <a href="detailInvoice.php"
                                                                 class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                                                                 Detail</a>
                                                             </a>
