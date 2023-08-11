@@ -12,11 +12,11 @@
     letter-spacing: 6.6px;
 }
 
-.card {
+.dashboard .card {
     border-radius: 12px;
 }
 
-.card:hover {
+.dashboard .card:hover {
     cursor: pointer;
     background-color: #97BDDE;
 }
