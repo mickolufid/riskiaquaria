@@ -16,6 +16,8 @@
     <link
         href="../https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
+
+    <!-- Local CSS -->
     <link rel="stylesheet" href="../css/style.css">
 
     <!-- Custom styles for this template-->
@@ -25,30 +27,6 @@
     <!-- Logo bar -->
     <link rel="icon" type="image/png" href="../img/logo.png">
 
-    <style>
-        .navbar {
-            background-color: #22527D;
-        }
-
-        .navbar-brand span {
-            color: #FFF;
-            font-family: Poppins;
-            font-size: 22px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            letter-spacing: 6.6px;
-        }
-
-        .card {
-            border-radius: 12px;
-        }
-
-        .card:hover {
-            cursor: pointer;
-            background-color: #97BDDE;
-        }
-    </style>
 
 </head>
 
@@ -66,7 +44,7 @@
                 <!-- Topbar -->
                 <nav class="container-fluid navbar navbar-expand topbar mb-5 static-top shadow">
 
-                    <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="" width="20%"><span>Riski
+                    <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""><span>Riski
                             Application</span></a>
 
 
