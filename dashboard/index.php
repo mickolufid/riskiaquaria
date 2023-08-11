@@ -85,7 +85,7 @@
                     <div class="row">
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-4 col-md-6 mb-4">
+                        <div class="col-xl-3 col-md-6 mb-3">
                             <div class="card shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
@@ -101,7 +101,7 @@
                         </div>
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-4 col-md-6 mb-4">
+                        <div class="col-xl-3 col-md-6 mb-3">
                             <div class="card shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
@@ -117,7 +117,7 @@
                         </div>
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-4 col-md-6 mb-4">
+                        <div class="col-xl-3 col-md-6 mb-3">
                             <div class="card shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
@@ -134,7 +134,7 @@
                         </div>
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-4 col-md-6 mb-4">
+                        <div class="col-xl-3 col-md-6 mb-3">
                             <div class="card shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
@@ -151,7 +151,7 @@
                         </div>
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-4 col-md-6 mb-4">
+                        <div class="col-xl-3 col-md-6 mb-3">
                             <div class="card shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
@@ -168,7 +168,7 @@
                         </div>
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-4 col-md-6 mb-4">
+                        <div class="col-xl-3 col-md-6 mb-3">
                             <div class="card shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
@@ -185,14 +185,14 @@
                         </div>
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-4 col-md-6 mb-4">
+                        <div class="col-xl-3 col-md-6 mb-3">
                             <div class="card shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <a href="report/" class="text-decoration-none text-dark">
                                                 <img src="../img/busines_report.png" alt="" class="mx-auto d-block">
-                                                <h4 class="text-center">BUSINESS REPORT</h4>
+                                                <h4 class="text-center">REPORT</h4>
                                             </a>
 
                                         </div>
