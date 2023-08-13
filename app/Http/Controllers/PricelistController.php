@@ -16,4 +16,9 @@ class PricelistController extends Controller
         //render view with pricelist
         return view('dashboard.pricelist.index', compact('pricelist'));
     }
+
+    public function create()
+    {
+        return view('dashboard.pricelist.tambahpricelist');
+    }
 }

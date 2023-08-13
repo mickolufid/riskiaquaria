@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('/dashboard/pricelist', 'App\Http\Controllers\PricelistController');
+Route::resource('/dashboard/pricelist', App\Http\Controllers\PricelistController::class);
