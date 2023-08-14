@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Detail Pricelist | Riski Aquaria</title>
+    <title>Detail List Client | Riski Aquaria</title>
 
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -45,9 +45,9 @@
                     <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%"><span>Riski
                             Application</span></a>
 
-
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
+
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
@@ -82,32 +82,35 @@
                         <div class="col-3"></div>
                         <div class="col-6">
                             <div class="card p-4">
-                                <h3 class="text-center">Tambah Supplier</h3>
+                                <h3 class="text-center">Detail Client</h3>
                                 <hr>
                                 <form class="mt-3">
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">CLient Name</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
+                                        <label for="exampleInputEmail1">Client Name</label>
+                                        <input type="text" value="RA516M" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" readonly>
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Address</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
+                                        <input type="text" value="Anemones" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" readonly>
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Phone</label>
-                                        <input type="number" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
+                                        <input type="number" value="Red Fire Anemon" class="form-control"
+                                            id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Email</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
+                                        <input type="email" value="Phyllodiscus semoni (Anemon)" class="form-control"
+                                            id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                     </div>
+                                    <br>
                                     <div class="text-right">
-                                        <a href="index.php" class="btn btn-primary">Simpan</a>
-                                        <a href="index.php" class="btn btn-danger">Batal</a>
+                                        <a href="editCLient.php" class="btn btn-warning">Edit</a>
+                                        <a href="#" data-toggle="modal" data-target="#hapusModal"
+                                            class="btn btn-danger">Hapus</a>
+
                                     </div>
 
                                 </form>
@@ -142,6 +145,26 @@
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="hapusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Are you sure? </h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">You won’t be able to revert this!</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-danger" href="index.php">Hapus Data</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"

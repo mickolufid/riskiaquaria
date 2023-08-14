@@ -13,7 +13,9 @@
 
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="../../https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link
+        href="../../https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
 
     <!-- Local CSS -->
     <link rel="stylesheet" href="../css/style.css">
@@ -41,19 +43,22 @@
                 <!-- Topbar -->
                 <nav class="container-fluid navbar navbar-expand topbar mb-5 static-top shadow">
 
-                <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%"><span>Riski Application</span></a>
+                    <a class="navbar-brand" href="#"><img src="../../img/logo.png" alt="" width="20%"><span>Riski
+                            Application</span></a>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-white small">Admin</span>
                                 <img class="img-profile rounded-circle" src="../../img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
@@ -72,12 +77,13 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h4 mb-0 text-gray-800"><a href="../index.php" class="text-decoration-none">Dashboard</a> / List Client</h1>
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h4 mb-0 text-gray-800"><a href="../index.php"
+                                class="text-decoration-none">Dashboard</a> / List Client</h1>
 
-                    <a href="tambahStock.php" class="d-none d-sm-inline-block btn btn-md btn-success shadow-sm">
-                        <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Data</a>
-                        </div>
+                        <a href="tambahClient.php" class="d-none d-sm-inline-block btn btn-md btn-success shadow-sm">
+                            <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Data</a>
+                    </div>
                     <!-- Content Row -->
                     <div class="card shadow mb-4">
                         <div class="card-body">
@@ -87,7 +93,8 @@
                                         <div class="col-sm-12 col-md-6">
                                             <div class="dataTables_length" id="dataTable_length">
                                                 <label>Show
-                                                    <select name="dataTable_length" aria-controls="dataTable" class="custom-select custom-select-sm form-control form-control-sm">
+                                                    <select name="dataTable_length" aria-controls="dataTable"
+                                                        class="custom-select custom-select-sm form-control form-control-sm">
                                                         <option value="10">10</option>
                                                         <option value="25">25</option>
                                                         <option value="50">50</option>
@@ -97,20 +104,44 @@
                                         </div>
                                         <div class="col-sm-12 col-md-6 text-right">
                                             <div id="dataTable_filter" class="dataTables_filter">
-                                                <label class="text-left">Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="dataTable"></label>
+                                                <label class="text-left">Search:<input type="search"
+                                                        class="form-control form-control-sm" placeholder=""
+                                                        aria-controls="dataTable"></label>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0" role="grid" aria-describedby="dataTable_info" style="width: 100%;">
+                                            <table class="table table-bordered dataTable" id="dataTable" width="100%"
+                                                cellspacing="0" role="grid" aria-describedby="dataTable_info"
+                                                style="width: 100%;">
                                                 <thead>
                                                     <tr role="row">
-                                                        <th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 10px;">No</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Buy Quantity</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Sell Quantity</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 111.578px;">Date</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 105.156px;">Action</th>
+                                                        <th class="sorting sorting_asc" tabindex="0"
+                                                            aria-controls="dataTable" rowspan="1" colspan="1"
+                                                            aria-sort="ascending"
+                                                            aria-label="Name: activate to sort column descending"
+                                                            style="width: 10px;">No</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable"
+                                                            rowspan="1" colspan="1"
+                                                            aria-label="Age: activate to sort column ascending"
+                                                            style="width: 70px;">Client Name</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable"
+                                                            rowspan="1" colspan="1"
+                                                            aria-label="Age: activate to sort column ascending"
+                                                            style="width: 70px;">Address</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable"
+                                                            rowspan="1" colspan="1"
+                                                            aria-label="Office: activate to sort column ascending"
+                                                            style="width: 111.578px;">Phone</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable"
+                                                            rowspan="1" colspan="1"
+                                                            aria-label="Start date: activate to sort column ascending"
+                                                            style="width: 105.156px;">Email</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTable"
+                                                            rowspan="1" colspan="1"
+                                                            aria-label="Start date: activate to sort column ascending"
+                                                            style="width: 105.156px;">Action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -119,8 +150,11 @@
                                                         <td>RA516M</td>
                                                         <td>Anemones</td>
                                                         <td>Red Fire Anemon</td>
+                                                        <td>Red Fire Anemon</td>
                                                         <td>
-                                                            <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="detailClient.php"
+                                                                class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                                                                Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -129,8 +163,11 @@
                                                         <td>RA520M</td>
                                                         <td>Anemones</td>
                                                         <td>Color Carpet Anemon (Blue)</td>
+                                                        <td>Red Fire Anemon</td>
                                                         <td>
-                                                            <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="detailClient.php"
+                                                                class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                                                                Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -139,8 +176,11 @@
                                                         <td>RA517M</td>
                                                         <td>Anemones</td>
                                                         <td>Color Carpet Anemon (Brown)</td>
+                                                        <td>Red Fire Anemon</td>
                                                         <td>
-                                                            <a href="detailStock.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="detailClient.php"
+                                                                class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                                                                Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -150,17 +190,32 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-12 col-md-5">
-                                            <div class="dataTables_info" id="dataTable_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div>
+                                            <div class="dataTables_info" id="dataTable_info" role="status"
+                                                aria-live="polite">Showing 1 to 10 of 57 entries</div>
                                         </div>
                                         <div class="col-sm-12 col-md-7">
-                                            <div class="dataTables_paginate paging_simple_numbers" id="dataTable_paginate">
+                                            <div class="dataTables_paginate paging_simple_numbers"
+                                                id="dataTable_paginate">
                                                 <ul class="pagination">
-                                                    <li class="paginate_button page-item previous disabled" id="dataTable_previous"><a href="#" aria-controls="dataTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
-                                                    <li class="paginate_button page-item active"><a href="#" aria-controls="dataTable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
-                                                    <li class="paginate_button page-item "><a href="#" aria-controls="dataTable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
-                                                    <li class="paginate_button page-item "><a href="#" aria-controls="dataTable" data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
-                                                    <li class="paginate_button page-item "><a href="#" aria-controls="dataTable" data-dt-idx="4" tabindex="0" class="page-link">4</a></li>
-                                                    <li class="paginate_button page-item next" id="dataTable_next"><a href="#" aria-controls="dataTable" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li>
+                                                    <li class="paginate_button page-item previous disabled"
+                                                        id="dataTable_previous"><a href="#" aria-controls="dataTable"
+                                                            data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+                                                    </li>
+                                                    <li class="paginate_button page-item active"><a href="#"
+                                                            aria-controls="dataTable" data-dt-idx="1" tabindex="0"
+                                                            class="page-link">1</a></li>
+                                                    <li class="paginate_button page-item "><a href="#"
+                                                            aria-controls="dataTable" data-dt-idx="2" tabindex="0"
+                                                            class="page-link">2</a></li>
+                                                    <li class="paginate_button page-item "><a href="#"
+                                                            aria-controls="dataTable" data-dt-idx="3" tabindex="0"
+                                                            class="page-link">3</a></li>
+                                                    <li class="paginate_button page-item "><a href="#"
+                                                            aria-controls="dataTable" data-dt-idx="4" tabindex="0"
+                                                            class="page-link">4</a></li>
+                                                    <li class="paginate_button page-item next" id="dataTable_next"><a
+                                                            href="#" aria-controls="dataTable" data-dt-idx="7"
+                                                            tabindex="0" class="page-link">Next</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -200,7 +255,8 @@
     </a>
 
     <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">

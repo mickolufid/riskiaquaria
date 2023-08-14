@@ -91,8 +91,8 @@
                                             aria-describedby="emailHelp">
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Contact Person</label>
-                                        <input type="number" value="" class="form-control" id="exampleInputEmail1"
+                                        <label for="exampleInputEmail1">Address</label>
+                                        <input type="text" value="" class="form-control" id="exampleInputEmail1"
                                             aria-describedby="emailHelp">
                                     </div>
                                     <div class="form-group">

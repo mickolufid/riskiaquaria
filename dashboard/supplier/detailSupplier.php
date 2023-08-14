@@ -91,8 +91,8 @@
                                             aria-describedby="emailHelp" readonly>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Contact Person</label>
-                                        <input type="number" value="Anemones" class="form-control" id="exampleInputEmail1"
+                                        <label for="exampleInputEmail1">Address</label>
+                                        <input type="text" value="Anemones" class="form-control" id="exampleInputEmail1"
                                             aria-describedby="emailHelp" readonly>
                                     </div>
                                     <div class="form-group">

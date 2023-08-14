@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Detail Pricelist | Riski Aquaria</title>
+    <title>Tambah CLient | Riski Aquaria</title>
 
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -82,7 +82,7 @@
                         <div class="col-3"></div>
                         <div class="col-6">
                             <div class="card p-4">
-                                <h3 class="text-center">Tambah Supplier</h3>
+                                <h3 class="text-center">Tambah Client</h3>
                                 <hr>
                                 <form class="mt-3">
                                     <div class="form-group">
