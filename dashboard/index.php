@@ -55,7 +55,7 @@
                 <!-- Topbar -->
                 <nav class="container-fluid navbar navbar-expand topbar mb-5 static-top shadow">
 
-                    <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""><span>Riski
+                    <a class="navbar-brand" href="index.php"><img src="../img/logo.png" alt=""><span>Riski
                             Application</span></a>
 
 
@@ -118,7 +118,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <a href="stock/" class="text-decoration-none text-dark">
-                                                <img src="../img/stock_product.png" alt="" class="mx-auto d-block">
+                                                <img src="../img/stockproduct.png" alt="" class="mx-auto d-block">
                                                 <h4 class="text-center">STOCK PRODUCT</h4>
                                             </a>
                                         </div>
@@ -134,7 +134,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <a href="supplier/" class="text-decoration-none text-dark">
-                                                <img src="../img/list_supplier.png" alt="" class="mx-auto d-block">
+                                                <img src="../img/listsupplier.png" alt="" class="mx-auto d-block">
                                                 <h4 class="text-center">LIST SUPPLIER</h4>
                                             </a>
 
@@ -151,7 +151,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <a href="client/" class="text-decoration-none text-dark">
-                                                <img src="../img/list_client.png" alt="" class="mx-auto d-block">
+                                                <img src="../img/listclient.png" alt="" class="mx-auto d-block">
                                                 <h4 class="text-center">LIST CLIENT</h4>
                                             </a>
 
@@ -168,7 +168,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <a href="invoice/" class="text-decoration-none text-dark">
-                                                <img src="../img/invoice.png" alt="" class="mx-auto d-block">
+                                                <img src="../img/invoicedata.png" alt="" class="mx-auto d-block">
                                                 <h4 class="text-center">INVOICE</h4>
                                             </a>
 
@@ -185,7 +185,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <a href="loan/" class="text-decoration-none text-dark">
-                                                <img src="../img/loan.png" alt="" class="mx-auto d-block">
+                                                <img src="../img/loandata.png" alt="" class="mx-auto d-block">
                                                 <h4 class="text-center">LOAN</h4>
                                             </a>
 
@@ -202,7 +202,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <a href="report/" class="text-decoration-none text-dark">
-                                                <img src="../img/busines_report.png" alt="" class="mx-auto d-block">
+                                                <img src="../img/business_report.png" alt="" class="mx-auto d-block">
                                                 <h4 class="text-center">REPORT</h4>
                                             </a>
 
