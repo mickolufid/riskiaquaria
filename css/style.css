@@ -12,15 +12,6 @@
     letter-spacing: 6.6px;
 }
 
-.dashboard .card {
-    border-radius: 12px;
-}
-
-.dashboard .card:hover {
-    cursor: pointer;
-    background-color: #97BDDE;
-}
-
 .navbar-brand img {
     width: 15%;
 }

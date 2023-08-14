@@ -27,6 +27,17 @@
     <!-- Logo bar -->
     <link rel="icon" type="image/png" href="../img/logo.png">
 
+    <style>
+        .card {
+            border-radius: 12px;
+        }
+
+        .card:hover {
+            cursor: pointer;
+            background-color: #97BDDE;
+        }
+    </style>
+
 
 </head>
 
@@ -79,7 +90,7 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container dashboard">
+                <div class="container">
 
                     <!-- Content Row -->
                     <div class="row">
