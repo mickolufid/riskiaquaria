@@ -26,6 +26,29 @@
     <!-- Logo bar -->
     <link rel="icon" type="image/png" href="../../img/logo.png">
 
+    <style>
+        .navbar {
+            background-color: #22527D;
+        }
+
+        .navbar-brand span {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 6.6px;
+        }
+
+        .navbar-brand img {
+            width: 15%;
+        }
+        .odd:hover {
+            background: #F8F6F4;
+        }
+    </style>
+
 
 </head>
 
