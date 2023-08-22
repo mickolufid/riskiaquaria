@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 Route::resource('/dashboard/pricelist', App\Http\Controllers\PricelistController::class);
+Route::resource('/dashboard', App\Http\Controllers\DashboardController::class);

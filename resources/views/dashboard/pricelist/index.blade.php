@@ -164,6 +164,4 @@ Pricelist | Riski Aquaria
     <!-- footer -->
     @include('layouts.footer')
     @endsection
-
-
 <!-- app -->
