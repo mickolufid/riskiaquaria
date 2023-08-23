@@ -70,7 +70,7 @@ Pricelist | Riski Aquaria
                                                         <td>Red Fire Anemon</td>
                                                         <td>Rp 200,000</td>
                                                         <td>
-                                                            <a href="detailPricelist.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="{{ route('pricelist.create') }}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>
