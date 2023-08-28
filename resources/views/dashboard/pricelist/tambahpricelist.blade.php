@@ -27,60 +27,61 @@ Tambah Data Pricelist | Riski Aquaria
                         <div class="card p-4">
                             <h3 class="text-center">Tambah Detail Pricelist</h3>
                             <hr>
-                            <form class="mt-3">
+                            <form class="mt-3" action="{{ route('pricelist.store') }}" method="POST" >
+                            @csrf
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Code</label>
-                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <input type="text" class="form-control" name="productCode">
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Category</label>
-                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <input type="text" class="form-control" name="productCategory">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Common Name</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="text" class="form-control" name="productCommontName">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Scientific Name</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="text" class="form-control" name="productScientificName">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Indonesian Name</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="text" class="form-control" name="productIndonesianName">
                                 </div>
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Harga</label>
-                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <input type="text" class="form-control" name="productPrice">
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <!-- <div class="col-6">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Size</label>
-                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <input type="text" class="form-control" name="size">
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="row">
-                                    <div class="col-6">
+                                    <!-- <div class="col-6">
                                         <div class="form-group mt-3">
                                             <label for="exampleInputEmail1">Tambah Gambar</label>
-                                            <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <input type="file" class="form-control" name="image">
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-6"></div>
                                 </div>
 
                                 <div class="text-right">
-                                    <a href="index.php" class="btn btn-primary">Simpan</a>
-                                    <a href="index.php" class="btn btn-danger">Batal</a>
+                                <button type="submit" class="btn btn-md btn-primary">SIMPAN</button>
+                            <button type="reset" class="btn btn-md btn-warning">RESET</button>
                                 </div>
 
                             </form>

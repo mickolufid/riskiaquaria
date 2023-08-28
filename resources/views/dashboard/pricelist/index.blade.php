@@ -63,39 +63,23 @@ Pricelist | Riski Aquaria
                                                     </tr>
                                                 </thead>
                                                 <tbody>
+                                                @forelse ($pricelist as $pricelist)
                                                     <tr class="odd">
                                                         <td class="sorting_1">1</td>
-                                                        <td>RA516M</td>
-                                                        <td>Anemones</td>
-                                                        <td>Red Fire Anemon</td>
-                                                        <td>Rp 200,000</td>
+                                                        <td>{{ $pricelist->productCode }}</td>
+                                                        <td>{{ $pricelist->productCategory }}</td>
+                                                        <td>{{ $pricelist->productCommontName }}</td>
+                                                        <td>Rp {{ $pricelist->productPrice }}</td>
                                                         <td>
-                                                            <a href="detailPricelist.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
+                                                            <a href="{{ route('pricelist.show', $pricelist->id) }}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
                                                             </a>
                                                         </td>
                                                     </tr>
-                                                    <tr class="odd">
-                                                        <td class="sorting_1">2</td>
-                                                        <td>RA520M</td>
-                                                        <td>Anemones</td>
-                                                        <td>Color Carpet Anemon (Blue)</td>
-                                                        <td>Rp 250,000</td>
-                                                        <td>
-                                                            <a href="detailPricelist.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="odd">
-                                                        <td class="sorting_1">3</td>
-                                                        <td>RA517M</td>
-                                                        <td>Anemones</td>
-                                                        <td>Color Carpet Anemon (Brown)</td>
-                                                        <td>Rp 250,000</td>
-                                                        <td>
-                                                            <a href="detailPricelist.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
-                                                            </a>
-                                                        </td>
-                                                    </tr>
+                                                    @empty
+                                  <div class="alert alert-danger">
+                                      Data Post belum Tersedia.
+                                  </div>
+                                                @endforelse
                                                 </tbody>
                                             </table>
                                         </div>

@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('title')
-Pricelist | Riski Aquaria
+Dashboard | Riski Aquaria
 @endsection
 
 @section('content')

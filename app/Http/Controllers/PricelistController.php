@@ -21,4 +21,38 @@ class PricelistController extends Controller
     {
         return view('dashboard.pricelist.tambahpricelist');
     }
+
+    public function store(Request $request)
+    {
+        $this->validate(request(), [
+            'productCode' => 'required',
+            'productCategory' => 'required',
+            'productCommontName' => 'required',
+            'productScientificName' => 'required',
+            'productIndonesianName' => 'required',
+            'productPrice' => 'required',
+        ]);
+
+        Pricelist::create([
+            'productCode' => $request->productCode,
+            'productCategory' => $request->productCategory,
+            'productCommontName' => $request->productCommontName,
+            'productScientificName' => $request->productScientificName,
+            'productIndonesianName' => $request->productIndonesianName,
+            'productPrice' => $request->productPrice,
+        ]);
+
+        return redirect()->route('pricelist.index')->with('success', 'Data berhasil ditambahkan');
+
+
+    }
+
+    public function show($id)
+    {
+        $pricelist = Pricelist::find($id);
+
+        return view('dashboard.pricelist.detailpricelist', compact('pricelist'));
+    }
+
+
 }

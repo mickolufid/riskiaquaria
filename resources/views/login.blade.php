@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Tambah Data Pricelist | Riski Aquaria
+Login Pricelist | Riski Aquaria
 @endsection
 
 @section('content')
