@@ -94,16 +94,16 @@
                                        <div class="col-6">
                                            <div class="form-group">
                                                <label for="exampleInputEmail1">Size</label>
-                                               <input type="text" value="Small" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
+                                               <input type="text" value="{{ $pricelist->productSize }}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly>
                                            </div>
                                        </div>
                                    </div>
                                    <div>
-                                       <img src="../../img/product/ikan1.jpg" width="30%" alt="">
+                                       <img src="{{ asset('storage/pricelist/'.$pricelist->productImage) }}" width="30%" alt="">
                                    </div>
                                    <br>
                                    <div class="text-right">
-                                       <a href="editPricelist.php" class="btn btn-warning">Edit</a>
+                                       <a href="{{ route('pricelist.edit', $pricelist->id) }}" class="btn btn-warning">Edit</a>
                                        <a href="#" data-toggle="modal" data-target="#hapusModal" class="btn btn-danger">Hapus</a>
 
                                    </div>

@@ -28,7 +28,7 @@ Tambah Data Pricelist | Riski Aquaria
                             <h3 class="text-center">Tambah Detail Pricelist</h3>
                             <hr>
                             <form class="mt-3" action="{{ route('pricelist.store') }}" method="POST" enctype="multipart/form-data">
-                            @csrf
+                                @csrf
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="form-group">
@@ -80,8 +80,8 @@ Tambah Data Pricelist | Riski Aquaria
                                 </div>
 
                                 <div class="text-right">
-                                <button type="submit" class="btn btn-md btn-primary">SIMPAN</button>
-                            <button type="reset" class="btn btn-md btn-warning">RESET</button>
+                                    <button type="submit" class="btn btn-md btn-primary">SIMPAN</button>
+                                    <button type="reset" class="btn btn-md btn-warning">RESET</button>
                                 </div>
 
                             </form>
