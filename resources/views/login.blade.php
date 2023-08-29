@@ -5,8 +5,32 @@ Login Pricelist | Riski Aquaria
 @endsection
 
 @section('content')
-<div class="container-fluid bg-login">
-    <div class="wrapper wrapper-login">
+<style>
+    .bg-login {
+    background-image: url("../img/bg-login.jpg");
+    background-size: cover;
+}
+
+.wrapper .wrapper-login {
+    padding: 0 20px 0 20px;
+}
+
+.main .main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.row .row-login {
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+</style>
+<div class="container-fluid bg-login" >
+    <div class="wrapper wrapper-login" >
         <div class="container main main-login">
             <!-- Outer Row -->
             <div class="row justify-content-center">
