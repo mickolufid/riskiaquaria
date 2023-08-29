@@ -115,4 +115,16 @@ class PricelistController extends Controller
         // return redirect to index
         return redirect()->route('pricelist.index')->with(['success' => 'Data Berhasil Diubah!']);
     }
+
+    public function destroy(Pricelist $pricelist)
+    {
+        //delete image
+        Storage::delete('public/pricelist/'. $pricelist->image);
+
+        //delete post
+        $pricelist->delete();
+
+        //redirect to index
+        return redirect()->route('pricelist.index')->with(['success' => 'Data Berhasil Dihapus!']);
+    }
 }

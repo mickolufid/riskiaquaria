@@ -104,7 +104,7 @@
                                    <br>
                                    <div class="text-right">
                                        <a href="{{ route('pricelist.edit', $pricelist->id) }}" class="btn btn-warning">Edit</a>
-                                       <a href="#" data-toggle="modal" data-target="#hapusModal" class="btn btn-danger">Hapus</a>
+                                       <a href="{{ route('pricelist.destroy', $pricelist->id) }}"  class="btn btn-danger">Hapus</a>
 
                                    </div>
 
