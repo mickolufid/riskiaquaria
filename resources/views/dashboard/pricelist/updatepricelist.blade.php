@@ -91,7 +91,7 @@
                                 <div class="col-6">
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Harga</label>
-                                        <input type="text" value="Rp {{ old('productPrice', $pricelist->productPrice) }}" class="form-control" name="productPrice">
+                                        <input type="text" value="{{ old('productPrice', $pricelist->productPrice) }}" class="form-control" name="productPrice">
                                     </div>
                                 </div>
                                 <div class="col-6">
