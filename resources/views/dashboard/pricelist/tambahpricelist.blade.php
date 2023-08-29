@@ -62,12 +62,12 @@ Tambah Data Pricelist | Riski Aquaria
                                             <input type="text" class="form-control" name="productPrice">
                                         </div>
                                     </div>
-                                    <!-- <div class="col-6">
+                                    <div class="col-6">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Size</label>
                                             <input type="text" class="form-control" name="size">
                                         </div>
-                                    </div> -->
+                                    </div>
                                 </div>
                                 <div class="row">
                                     <!-- <div class="col-6">

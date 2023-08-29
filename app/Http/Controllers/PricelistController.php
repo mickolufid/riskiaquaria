@@ -31,7 +31,13 @@ class PricelistController extends Controller
             'productScientificName' => 'required',
             'productIndonesianName' => 'required',
             'productPrice' => 'required',
+            'ProductSize' => 'required',
+            // 'productImage' => 'required',
         ]);
+
+        //upload image
+        // $image = $request->file('productImage');
+        // $image->storeAs('public/pricelist', $image->hashName());
 
         Pricelist::create([
             'productCode' => $request->productCode,
@@ -40,6 +46,8 @@ class PricelistController extends Controller
             'productScientificName' => $request->productScientificName,
             'productIndonesianName' => $request->productIndonesianName,
             'productPrice' => $request->productPrice,
+            'ProductSize' => $request->ProductSize,
+            // 'productImage' => $request->hasName(),
         ]);
 
         return redirect()->route('pricelist.index')->with('success', 'Data berhasil ditambahkan');
