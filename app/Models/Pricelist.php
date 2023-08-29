@@ -17,7 +17,7 @@ class Pricelist extends Model
         'productScientificName',
         'productIndonesianName',
         'productPrice',
-        'ProductSize',
-        // 'productImage',
+        'productSize',
+        'productImage',
     ];
 }

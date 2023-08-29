@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Pricelist;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class PricelistController extends Controller
 {
@@ -24,20 +25,20 @@ class PricelistController extends Controller
 
     public function store(Request $request)
     {
-        $this->validate(request(), [
+        $this->validate($request, [
             'productCode' => 'required',
             'productCategory' => 'required',
             'productCommontName' => 'required',
             'productScientificName' => 'required',
             'productIndonesianName' => 'required',
             'productPrice' => 'required',
-            'ProductSize' => 'required',
-            // 'productImage' => 'required',
+            'productSize' => 'required',
+            'productImage' => 'required',
         ]);
 
         //upload image
-        // $image = $request->file('productImage');
-        // $image->storeAs('public/pricelist', $image->hashName());
+        $image = $request->file('productImage');
+        $image->storeAs('public/pricelist', $image->hashName());
 
         Pricelist::create([
             'productCode' => $request->productCode,
@@ -46,8 +47,8 @@ class PricelistController extends Controller
             'productScientificName' => $request->productScientificName,
             'productIndonesianName' => $request->productIndonesianName,
             'productPrice' => $request->productPrice,
-            'ProductSize' => $request->ProductSize,
-            // 'productImage' => $request->hasName(),
+            'productSize' => $request->productSize,
+            'productImage' => $image->hashName(),
         ]);
 
         return redirect()->route('pricelist.index')->with('success', 'Data berhasil ditambahkan');

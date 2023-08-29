@@ -27,7 +27,7 @@ Tambah Data Pricelist | Riski Aquaria
                         <div class="card p-4">
                             <h3 class="text-center">Tambah Detail Pricelist</h3>
                             <hr>
-                            <form class="mt-3" action="{{ route('pricelist.store') }}" method="POST" >
+                            <form class="mt-3" action="{{ route('pricelist.store') }}" method="POST" enctype="multipart/form-data">
                             @csrf
                                 <div class="row">
                                     <div class="col-6">
@@ -65,17 +65,17 @@ Tambah Data Pricelist | Riski Aquaria
                                     <div class="col-6">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Size</label>
-                                            <input type="text" class="form-control" name="size">
+                                            <input type="text" class="form-control" name="productSize">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <!-- <div class="col-6">
+                                    <div class="col-6">
                                         <div class="form-group mt-3">
                                             <label for="exampleInputEmail1">Tambah Gambar</label>
-                                            <input type="file" class="form-control" name="image">
+                                            <input type="file" class="form-control" name="productImage">
                                         </div>
-                                    </div> -->
+                                    </div>
                                     <div class="col-6"></div>
                                 </div>
 

@@ -21,8 +21,8 @@ class CreatePricelistsTable extends Migration
             $table->string('productScientificName', 100);
             $table->string('productIndonesianName', 100);
             $table->double('productPrice', 10, 2);
-            $table->string('ProductSize', 50);
-            // $table->string('productImage', 100); 
+            $table->string('productSize', 50);
+            $table->string('productImage'); 
             $table->timestamps();
         });
     }
