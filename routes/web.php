@@ -19,4 +19,5 @@ Route::get('/', function () {
 
 Route::resource('/dashboard/pricelist', App\Http\Controllers\PricelistController::class);
 Route::resource('/dashboard/stock', App\Http\Controllers\StockController::class);
+Route::resource('/dashboard/supplier', App\Http\Controllers\SupplierController::class);
 Route::resource('/dashboard', App\Http\Controllers\DashboardController::class);
