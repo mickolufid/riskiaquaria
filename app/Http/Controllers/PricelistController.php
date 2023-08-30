@@ -119,7 +119,7 @@ class PricelistController extends Controller
     public function destroy(Pricelist $pricelist)
     {
         //delete image
-        Storage::delete('public/pricelist/'. $pricelist->image);
+        Storage::delete('public/pricelist/'. $pricelist->productImage);
 
         //delete post
         $pricelist->delete();

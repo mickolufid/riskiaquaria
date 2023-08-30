@@ -104,7 +104,11 @@
                                    <br>
                                    <div class="text-right">
                                        <a href="{{ route('pricelist.edit', $pricelist->id) }}" class="btn btn-warning">Edit</a>
-                                       <a href="{{ route('pricelist.destroy', $pricelist->id) }}"  class="btn btn-danger">Hapus</a>
+                                       <form action="{{ route('pricelist.destroy', $pricelist->id) }}" method="POST">
+                                        @csrf
+                                       @method('DELETE')
+                                        <button type="submit" class="btn btn-danger">Hapus</button>
+                                       </form>
 
                                    </div>
 
