@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('title')
-Stock Barang | Riski Aquaria
+Supplier | Riski Aquaria
 @endsection
 
 @section('content')
@@ -22,9 +22,9 @@ Stock Barang | Riski Aquaria
             <!-- Begin Page Content -->
             <div class="container-fluid">
             <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h4 mb-0 text-gray-800"><a href="../index.php" class="text-decoration-none">Dashboard</a> / Data Supplier</h1>
+                    <h1 class="h4 mb-0 text-gray-800"><a href="/dashboard/" class="text-decoration-none">Dashboard</a> / Data Supplier</h1>
 
-                <a href="tambahSupplier.php" class="d-none d-sm-inline-block btn btn-md btn-success shadow-sm">
+                <a href="{{ route('supplier.create') }}" class="d-none d-sm-inline-block btn btn-md btn-success shadow-sm">
                     <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Data</a>
                     </div>
                 <!-- Content Row -->
@@ -56,47 +56,36 @@ Stock Barang | Riski Aquaria
                                             <thead>
                                                 <tr role="row">
                                                     <th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 10px;">No</th>
-                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Client Name</th>
-                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Address</th>
-                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 111.578px;">Phone</th>
-                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 105.156px;">Email</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">Nama Supplier</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 70px;">No HP / Whatsapp</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 111.578px;">Email</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 105.156px;">Alamat</th>
                                                     <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 105.156px;">Action</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
+                                            @forelse ($supplier as $supplier)
                                                 <tr class="odd">
                                                     <td class="sorting_1">1</td>
-                                                    <td>RA516M</td>
-                                                    <td>Anemones</td>
-                                                    <td>Red Fire Anemon</td>
-                                                    <td>manusia@gmail.com</td>
+                                                    <td>{{ $supplier->clientName }}</td>
+                                                    <td>{{ $supplier->clientContact }}</td>
+                                                    <td>{{ $supplier->clientEmail }}</td>
+                                                    <td> {{ $supplier->clientAddress }}</td>
                                                     <td>
-                                                        <a href="detailSupplier.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
-                                                        </a>
+                                                        <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('supplier.destroy', $supplier->id) }}" method="POST">
+                                                            <a href="{{ route('supplier.show', $supplier->id) }}" class="btn btn-sm btn-dark"><i class="fa fa-eye"></i></a>
+                                                            <a href="{{ route('supplier.edit', $supplier->id) }}" class="btn btn-sm btn-primary"><i class="fa fa-pencil-alt"></i></a>
+                                                            @csrf
+                                                            @method('DELETE')
+                                                            <button type="submit" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button>
+                                                        </form>
                                                     </td>
                                                 </tr>
-                                                <tr class="odd">
-                                                    <td class="sorting_1">2</td>
-                                                    <td>RA520M</td>
-                                                    <td>Anemones</td>
-                                                    <td>Color Carpet Anemon (Blue)</td>
-                                                    <td>manusia@gmail.com</td>
-                                                    <td>
-                                                        <a href="detailSupplier.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr class="odd">
-                                                    <td class="sorting_1">3</td>
-                                                    <td>RA517M</td>
-                                                    <td>Anemones</td>
-                                                    <td>Color Carpet Anemon (Brown)</td>
-                                                    <td>manusia@gmail.com</td>
-                                                    <td>
-                                                        <a href="detailSupplier.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Detail</a>
-                                                        </a>
-                                                    </td>
-                                                </tr>
+                                                @empty
+                                                <div class="alert alert-danger">
+                                                    Data Post belum Tersedia.
+                                                </div>
+                                                @endforelse
                                             </tbody>
                                         </table>
                                     </div>

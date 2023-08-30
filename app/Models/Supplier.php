@@ -11,11 +11,10 @@ class Supplier extends Model
 
 
     protected $fillable = [
-        'productCode',
-        'productCategory',
-        'productCommontName',
-        'productScientificName',
-        'productIndonesianName',
-        'productPrice',
+        'clientName',
+        'clientContact',
+        'clientEmail',
+        'clientAddress',
+
     ];
 }
