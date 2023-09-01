@@ -30,13 +30,13 @@ height:50px;
 <script src="https://use.fontawesome.com/f59bcd8580.js"></script>
 <div class="container">
 <div class="row m-5 no-gutters shadow-lg">
-<div class="col-md-6 d-none d-md-block">
-<img src="https://images.unsplash.com/photo-1566888596782-c7f41cc184c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80" class="img-fluid" style="min-height:100%; width:60%;" />
+<div class="col-md-6 d-none d-block">
+<img src="{{ asset('img/img_login.png') }}" style="width: 100%;">
 </div>
 <div class="col-md-6 bg-white p-5">
-<h3 class="pb-3">Login Form</h3>
+<h3 class="pb-3 text-center">Login Form</h3>
 <div class="form-style">
-<form>
+<form action="/dashboard/">
   <div class="form-group pb-3">    
     <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">   
   </div>
@@ -47,7 +47,7 @@ height:50px;
 <div><a href="#">Lupa Password?</a></div>
 </div>
    <div class="pb-2">
-  <button type="submit" class="btn btn-dark w-100 font-weight-bold mt-2">Login</button>
+  <button type="submit" class="btn btn-primary w-100 font-weight-bold mt-2">Login</button>
    </div>
 </form>
 </div>
