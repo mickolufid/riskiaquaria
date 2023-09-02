@@ -7,7 +7,10 @@ Login Pricelist | Riski Aquaria
 @section('content')
 <style>
     body{
-background: #c9ccd1; 
+/* background: #c9ccd1;  */
+background-image: url('{{ asset('img/bg_login.png') }}');
+background-repeat: no-repeat;
+background-size: cover;
 }
 .form-style input{
 	border:0;
