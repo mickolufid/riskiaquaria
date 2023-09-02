@@ -31,7 +31,7 @@ height:50px;
 <div class="container">
 <div class="row m-5 no-gutters shadow-lg">
 <div class="col-md-6 d-none d-block">
-<img src="{{ asset('img/img_login.png') }}" style="width: 100%;">
+<img src="{{ asset('img/img_login.png') }}">
 </div>
 <div class="col-md-6 bg-white p-5">
 <h3 class="pb-3 text-center">Login Form</h3>
