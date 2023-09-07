@@ -15,12 +15,13 @@ class CreateStocksTable extends Migration
     {
         Schema::create('stocks', function (Blueprint $table) {
             $table->id();
-            $table->char('productCode', 10);
-            $table->string('productCategory', 50);
-            $table->string('productCommontName', 100);
-            $table->string('productScientificName', 100);
-            $table->string('productIndonesianName', 100);
-            $table->double('productPrice', 10, 2);
+            $table->unsignedBigInteger('productID');
+            $table->foreign('productID')->references('id')->on('pricelists');
+            $table->integer('buyQuantity');
+            $table->integer('sellQuantity');
+            $table->integer('mortality');
+            $table->integer('damaged');
+            $table->integer('recovered');
             $table->timestamps();
         });
     }

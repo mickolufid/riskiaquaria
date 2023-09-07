@@ -11,6 +11,13 @@ class Stock extends Model
 
 
     protected $fillable = [
-        
+        'productCode',
+        'productCategory',
+        'productCommontName',
+        'productScientificName',
+        'productIndonesianName',
+        'productPrice',
+        'productSize',
+        'productImage',
     ];
 }
